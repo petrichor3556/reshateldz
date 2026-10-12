@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Решатель ДЗ — помощник с домашним заданием в Telegram</title>
+<meta name="description" content="Решатель ДЗ — Telegram-бот: домашнее задание из электронного дневника, решения и объяснения по школьным учебникам.">
+<style>
+:root { --ink: #16202c; --soft: #5b6878; --line: #e3e8ee; --bg: #f6f8fa; --card: #fff; --accent: #1f6feb; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+       color: var(--ink); background: var(--bg); }
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; padding-top: 22px; padding-bottom: 14px;
+         border-bottom: 1px solid var(--line); }
+header .name { font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; margin-right: auto; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 15px; }
+a { color: var(--accent); }
+nav a { text-decoration: none; }
+nav a.here { color: var(--ink); font-weight: 600; }
+h1 { font-size: 30px; line-height: 1.25; margin: 34px 0 12px; }
+h2 { font-size: 21px; margin: 36px 0 10px; }
+p { margin: 10px 0; }
+ul, ol { padding-left: 22px; margin: 10px 0; }
+li { margin: 5px 0; }
+.lead { font-size: 19px; color: var(--soft); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin: 14px 0; }
+.price { font-size: 28px; font-weight: 700; }
+.price small { font-size: 16px; font-weight: 400; color: var(--soft); }
+.button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+          padding: 12px 22px; border-radius: 10px; margin: 8px 0; }
+table { border-collapse: collapse; width: 100%; }
+td { padding: 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+td:first-child { color: var(--soft); width: 40%; padding-right: 16px; }
+footer { color: var(--soft); font-size: 14px; padding-top: 26px; padding-bottom: 40px; margin-top: 44px;
+         border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<header><a class="name" href="index.html">Решатель ДЗ</a><nav><a href="index.html" class=here>Главная</a><a href="oferta.html">Оферта</a><a href="privacy.html">Политика конфиденциальности</a><a href="contacts.html">Контакты и реквизиты</a></nav></header>
+<main>
+
+<h1>Решатель ДЗ — помощник с домашним заданием в Telegram</h1>
+<p class="lead">Бот <a href="https://t.me/reshateldzbot">@reshateldzbot</a> показывает домашнее задание из электронного
+дневника, решает задания так, как учит школьный учебник, и объясняет решение по шагам.</p>
+<a class="button" href="https://t.me/reshateldzbot">Открыть бота в Telegram</a>
+
+<h2>Что входит в услугу</h2>
+<ul>
+<li><b>Домашнее задание из электронного дневника</b> — бот сам берёт задания и вечером присылает список на завтра.</li>
+<li><b>Решения по учебнику</b> — номера и упражнения решаются тем способом, который изложен в учебнике класса.</li>
+<li><b>Объяснение по шагам</b> — под каждым ответом кнопка «Объяснить»: что требуется, какое правило работает и почему.</li>
+<li><b>Конспекты</b> — параграф или тема коротко, по пунктам; пересказ произведения по литературе.</li>
+<li><b>Задания из файлов и ссылок</b>, приложенных к домашнему заданию.</li>
+<li><b>Своё задание</b> — можно прислать текстом или фотографией.</li>
+</ul>
+<p>Ответы готовит нейросеть. Она может ошибаться, поэтому решения стоит проверять и разбирать, а не переписывать
+не глядя: бот — помощник в учёбе, а не замена ей.</p>
+
+<h2>Цены</h2>
+<div class="card">
+<div class="price">299 ₽ <small>за 30 дней доступа</small></div>
+<p>Подписка на все возможности бота. Автоматических списаний нет: доступ продлевается только после новой оплаты.</p>
+</div>
+<div class="card">
+<div class="price">0 ₽ <small>пробный период — 3 дня</small></div>
+<p>Пробный период включается в боте один раз и ни к чему не обязывает.</p>
+</div>
+
+<h2>Как оплатить и получить доступ</h2>
+<ol>
+<li>Откройте бота <a href="https://t.me/reshateldzbot">@reshateldzbot</a> и нажмите «Оформить подписку».</li>
+<li>Бот пришлёт ссылку на оплату. Оплата проходит на защищённой странице ЮKassa: банковской картой или через СБП.</li>
+<li>Доступ открывается в боте автоматически сразу после оплаты, обычно в течение минуты. Чек приходит покупателю.</li>
+</ol>
+<p>Услуга оказывается дистанционно, через Telegram. Доставки и самовывоза нет: это цифровая услуга.</p>
+
+<h2>Возврат</h2>
+<p>Отказаться от подписки можно в любой момент: напишите на <a href="mailto:petrichor3556@gmail.com">petrichor3556@gmail.com</a> или в Telegram
+<a href="https://t.me/co77eeMANlA">@co77eeMANlA</a>. Деньги за неиспользованные дни возвращаются тем же способом, которым
+была оплата, в течение 10 дней. Подробности — в <a href="oferta.html">оферте</a>.</p>
+
+<h2>Документы</h2>
+<ul>
+<li><a href="oferta.html">Публичная оферта</a></li>
+<li><a href="privacy.html">Политика конфиденциальности</a></li>
+<li><a href="contacts.html">Контакты и реквизиты</a></li>
+</ul>
+
+</main>
+<footer>
+Цыганков Игорь Романович, плательщик налога на профессиональный доход (самозанятый), ИНН 030954973054<br>
+Почта: <a href="mailto:petrichor3556@gmail.com">petrichor3556@gmail.com</a> · Telegram: <a href="https://t.me/co77eeMANlA">@co77eeMANlA</a><br>
+<a href="oferta.html">Оферта</a> · <a href="privacy.html">Политика конфиденциальности</a> · <a href="contacts.html">Контакты и реквизиты</a>
+</footer>
+</body>
+</html>
